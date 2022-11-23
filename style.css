@@ -1,0 +1,107 @@
+html,
+body {
+  background-image: url("./assets/jaguar-xe.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Por que hay que anadir un punto en el container?*/
+.container {
+  position: fixed;
+  margin-left: 90px;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 9px;
+  width: 600px;
+  height: 270px;
+}
+
+button {
+  margin-left: 35px;
+  height: 50px;
+  width: 190px;
+  background-color: #db3030;
+  border: none;
+}
+
+button:hover {
+  background-color: #e83b43;
+}
+
+h1,
+p {
+  margin-left: 35px;
+  margin-right: 35px;
+  padding: 5px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+/*------------------Responsive------------------*/
+
+@media (max-width: 800px) {
+  .container {
+    position: fixed;
+    margin-left: 60px;
+    width: 560px;
+    height: 290px;
+  }
+  button {
+    margin-left: 35px;
+    height: 48px;
+    width: 185px;
+  }
+}
+
+@media (max-width: 660px) {
+  .container {
+    position: fixed;
+    margin-left: 30px;
+    width: 480px;
+    height: 300px;
+  }
+  button {
+    margin-left: 35px;
+    height: 48px;
+    width: 185px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    position: fixed;
+    margin-left: 30px;
+    width: 380px;
+    height: 320px;
+  }
+  button {
+    margin-left: 35px;
+    height: 45px;
+    width: 182px;
+  }
+}
+
+@media (max-width: 416px) {
+  .container {
+    position: fixed;
+    margin-left: 20px;
+    width: 280px;
+    height: 400px;
+  }
+  button {
+    margin-left: 35px;
+    height: 45px;
+    width: 182px;
+  }
+}
